@@ -1,8 +1,7 @@
 {
-    "name": "EvaMariaBot",
-    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "name": "MLTB",
+    "description": "I am a leech mirror telegram bot",
     "stack": "container",
-    ],
   
  "website": "https://github.com/kofhb/mltbking",
     "repository": "https://github.com/kofhb/mltbking",
@@ -371,3 +370,104 @@
             "value": "Telegram_files",
             "required": false
         },
+        "WALLCRAFT_CATEGORY": {
+            "description": "",
+            "required": false
+        },
+        "PIXABAY_API_KEY": {
+            "description": "N",
+            "required": false
+        },
+        "PIXABAY_CATEGORY": {
+            "description": "Name of tt",
+            "required": false
+        }, 
+        "PIXABAY_SEARCH": {
+            "description": "",
+            "required": false
+        },
+        "NAME_FONT": {
+            "description": "",
+            "required": false
+        },
+        "CAPTION_FONT": {
+            "description": "",
+            "required": false
+        },
+        "DISABLE_DRIVE_LINK": {
+            "description": "",
+            "required": false
+        },
+        "VIEW_LINK": {
+            "description": ".",
+            "required": false
+        },
+        "SOURCE_LINK": {
+            "description": " .",
+            "required": false
+        },
+        "START_BTN1_NAME": {
+            "description": "",
+            "required": false
+        },
+        "START_BTN1_URL": {
+            "description": "",
+            "required": false
+        },
+        "START_BTN2_NAME": {
+            "description": ".",
+            "required": false
+        },
+        "START_BTN2_URL": {
+            "description": "",
+            "required": false
+        },
+        "BUTTON_FOUR_NAME": {
+            "description": "",
+            "required": false
+        },
+        "BUTTON_FOUR_URL": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "BUTTON_FIVE_NAME": {
+            "description": "",
+            "required": false
+        },
+        "BUTTON_FIVE_URL": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "BUTTON_SIX_NAME": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "BUTTON_SIX_URL": {
+            "description": "",
+            "required": false
+        },
+        "SEARCH_API_LINK": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "SEARCH_LIMIT": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "SEARCH_PLUGINS": {
+            "description": "",
+            "required": false
+        },
+
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
