@@ -1,0 +1,373 @@
+{
+    "name": "EvaMariaBot",
+    "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
+    "stack": "container",
+    ],
+  
+ "website": "https://github.com/kofhb/mltbking",
+    "repository": "https://github.com/kofhb/mltbking",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "",
+            "required": true
+        },
+        "TELEGRAM_API": {
+            "description": "",
+            "required": true
+        },
+        "TELEGRAM_HASH": {
+            "description": "",
+            "required": true
+        },
+        "GDRIVE_ID": {
+            "description": ".",
+            "required": false
+        },
+        "DOWNLOAD_DIR": {
+            "description": " .",
+            "required": false
+        },
+        "DOWNLOAD_STATUS_UPDATE_INTERVAL": {
+            "description": "",
+            "required": false
+        },
+        "AUTO_DELETE_MESSAGE_DURATION": {
+            "description": "",
+            "required": false
+        },
+        "AUTO_DELETE_UPLOAD_MESSAGE_DURATION": {
+            "description": ".",
+            "required": false
+        },
+        "DATABASE_URL": {
+            "description": "",
+            "required": false
+        },
+        "IS_TEAM_DRIVE": {
+            "description": "N",
+            "required": false
+        },
+        "IGNORE_PENDING_REQUESTS": {
+            "description": "Name of tt",
+            "required": false
+        }, 
+        "USE_SERVICE_ACCOUNTS": {
+            "description": "",
+            "required": false
+        },
+        "INDEX_URL": {
+            "description": "",
+            "required": false
+        },
+        "STATUS_LIMIT": {
+            "description": "",
+            "required": false
+        },
+        "STOP_DUPLICATE": {
+            "description": "",
+            "required": false
+        },
+        "CMD_PREFIX": {
+            "description": ".",
+            "required": false
+        },
+        "UPTOBOX_TOKEN": {
+            "description": " .",
+            "required": false
+        },
+        "TORRENT_TIMEOUT": {
+            "description": "",
+            "required": false
+        },
+        "EXTENSION_FILTER": {
+            "description": "",
+            "required": false
+        },
+        "INCOMPLETE_TASK_NOTIFIER": {
+            "description": ".",
+            "required": false
+        },
+        "LEECH_ENABLED": {
+            "description": "",
+            "required": false
+        },
+        "MIRROR_ENABLED": {
+            "description": "",
+            "required": false
+        },
+        "WATCH_ENABLED": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "CLONE_ENABLED": {
+            "description": "",
+            "required": false
+        },
+        "ANILIST_ENABLED": {
+            "description": "",
+            "required": false
+        },
+        "WAYBACK_ENABLED": {
+            "description": "",
+            "required": false
+        },
+        "MEDIAINFO_ENABLED": {
+            "description": ".",
+            "required": false
+        },
+        "SET_BOT_COMMANDS": {
+            "description": " .",
+            "required": false
+        },
+        "UPSTREAM_REPOL": {
+            "description": "",
+            "required": false
+        },
+        "UPSTREAM_BRANCH": {
+            "description": "",
+            "required": false
+        },
+        "BOT_PM": {
+            "description": ".",
+            "required": false
+        },
+        "FORCE_BOT_PM": {
+            "description": "",
+            "required": false
+        },
+        "LEECH_LOG": {
+            "description": "N",
+            "required": false
+        },
+        "LEECH_LOG_URL": {
+            "description": "Name of tt",
+            "required": false
+        }, 
+        "LEECH_LOG_INDEXING": {
+            "description": "",
+            "required": false
+        },
+        "PAID_SERVICE": {
+            "description": "",
+            "required": false
+        },
+        "MIRROR_LOGS": {
+            "description": "",
+            "required": false
+        },
+        "MIRROR_LOG_URL": {
+            "description": "",
+            "required": false
+        },
+        "LINK_LOG": {
+            "description": ".",
+            "required": false
+        },
+        "TG_SPLIT_SIZE": {
+            "description": " .",
+            "required": false
+        },
+        "AS_DOCUMENT": {
+            "description": "",
+            "required": false
+        },
+        "EQUAL_SPLITS": {
+            "description": "",
+            "required": false
+        },
+        "TITLE_NAME": {
+            "description": ".",
+            "required": false
+        },
+        "AUTHOR_NAME": {
+            "description": "",
+            "required": false
+        },
+        "AUTHOR_URL": {
+            "description": "",
+            "required": false
+        },
+        "GD_INFO": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "FSUB": {
+            "description": ".",
+            "required": false
+        },
+        "CHANNEL_USERNAME": {
+            "description": " .",
+            "required": false
+        },
+        "FSUB_CHANNEL_ID": {
+            "description": "",
+            "required": false
+        },
+        "BASE_URL_OF_BOT": {
+            "description": "",
+            "required": false
+        },
+        "SERVER_PORT": {
+            "description": ".",
+            "required": false
+        },
+        "WEB_PINCODE": {
+            "description": "",
+            "required": false
+        },
+        "QB_SEED": {
+            "description": "N",
+            "required": false
+        },
+        "RSS_DELAY": {
+            "description": "Name of tt",
+            "required": false
+        }, 
+        "RSS_COMMAND": {
+            "description": "",
+            "required": false
+        },
+        "RSS_CHAT_ID": {
+            "description": "",
+            "required": false
+        },
+        "USER_SESSION_STRING": {
+            "description": "",
+            "required": false
+        },
+        "MEGA_API_KEY": {
+            "description": "",
+            "required": false
+        },
+        "MEGA_EMAIL_ID": {
+            "description": ".",
+            "required": false
+        },
+        "MEGA_PASSWORD": {
+            "description": " .",
+            "required": false
+        },
+        "SHORTENER_API": {
+            "description": "",
+            "required": false
+        },
+        "SHORTENER": {
+            "description": "",
+            "required": false
+        },
+        "GDTOT_CRYPT": {
+            "description": ".",
+            "required": false
+        },
+        "UNIFIED_EMAIL": {
+            "description": "",
+            "required": false
+        },
+        "UNIFIED_PASS": {
+            "description": "",
+            "required": false
+        },
+        "HUBDRIVE_CRYPT": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
+        "KATDRIVE_CRYPT": {
+            "description": "",
+            "required": false
+        },
+        "DRIVEFIRE_CRYPT": {
+            "description": "",
+            "required": false
+        },
+        "SHAREDRIVE_PHPCKS": {
+            "description": "",
+            "required": false
+        },
+        "XSRF_TOKEN": {
+            "description": ".",
+            "required": false
+        },
+        "laravel_session": {
+            "description": " .",
+            "required": false
+        },
+        "TOTAL_TASK_LIMIT": {
+            "description": "",
+            "required": false
+        },
+        "USER_TASKS_LIMIT": {
+            "description": "",
+            "required": false
+        },
+        "TORRENT_DIRECT_LIMIT": {
+            "description": ".",
+            "required": false
+        },
+        "ZIP_UNZIP_LIMIT": {
+            "description": "",
+            "required": false
+        },
+        "CLONE_LIMIT": {
+            "description": "N",
+            "required": false
+        },
+        "MEGA_LIMIT": {
+            "description": "Name of tt",
+            "required": false
+        }, 
+        "STORAGE_THRESHOLD": {
+            "description": "",
+            "required": false
+        },
+        "LEECH_LIMIT": {
+            "description": "",
+            "required": false
+        },
+        "TIME_GAP": {
+            "description": "",
+            "required": false
+        },
+        "FINISHED_PROGRESS_STR": {
+            "description": "",
+            "required": false
+        },
+        "UN_FINISHED_PROGRESS_STR": {
+            "description": ".",
+            "required": false
+        },
+        "EMOJI_THEME": {
+            "description": " .",
+            "required": false
+        },
+        "SHOW_LIMITS_IN_STATS": {
+            "description": "",
+            "required": false
+        },
+        "TELEGRAPH_STYLE": {
+            "description": "",
+            "required": false
+        },
+        "CREDIT_NAME": {
+            "description": ".",
+            "required": false
+        },
+        "PICS": {
+            "description": "",
+            "required": false
+        },
+        "WALLFLARE_SEARCH": {
+            "description": "",
+            "required": false
+        },
+        "WALLTIP_SEARCH": {
+            "description": "",
+            "value": "Telegram_files",
+            "required": false
+        },
